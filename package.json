@@ -10,9 +10,10 @@
     "url": "https://github.com/bdnkl"
   },
   "build": {
-    "appId": "your.id",
-    "mac": {
-      "category": "your.app.category.type"
+    "appId": "react-electron-test",
+    "win": {
+      "target": ["nsis", "portable", "7z", "msi"],
+      "icon": "build/logo512.png"
     }
   },
   "private": true,
